@@ -23,7 +23,7 @@ interface SearchInput {
  * The tool returns a JSON string with the search result details.
  */
 export class SearchToolForAgents extends Tool {
-  name = 'Search Engine';
+  name = 'Search_Engine';
   description = 'Searches the web for information about a given query. Pass this tool specific queries and/or keywords to quickly search the WWW to retrieve information on any topic like academic research, history, entertainment, current events. This tool does NOT work for personal information and does NOT work for math.';
   private serpApi: SerpAPI;
 
